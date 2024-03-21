@@ -1,0 +1,13 @@
+{
+    "name": "tamaledns/sample",
+    "description": "UserManagement Package",
+    "type": "laravel",
+    "authors": [
+        {
+            "name": "Dennis Tamale",
+            "email": "tamaledns@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

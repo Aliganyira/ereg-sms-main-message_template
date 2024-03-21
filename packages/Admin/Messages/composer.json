@@ -1,0 +1,8 @@
+{
+    "name": "helpdesk/Admin/messages",
+    "description": "Messages",
+    "type": "laravel",
+    "authors": [],
+    "minimum-stability": "dev",
+    "require": {}
+}

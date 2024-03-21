@@ -1,0 +1,8 @@
+{
+    "name": "helpdesk/Front/public-ui",
+    "description": "PublicUi",
+    "type": "laravel",
+    "authors": [],
+    "minimum-stability": "dev",
+    "require": {}
+}

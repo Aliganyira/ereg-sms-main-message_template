@@ -1,0 +1,27 @@
+<?php
+
+namespace {{ package.folder }}\{{ package.class.plural }}\Database\Seeds;
+
+use Carbon\Carbon;
+use Exception;
+use Faker\Factory;
+use Illuminate\Database\Seeder;
+use {{ package.folder }}\{{ package.class.plural }}\Models\{{ package.class.singular }};
+
+class {{ package.class.singular }}Seeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $faker = Factory::create('en_UG');
+
+        ${{ package.camel.singular }} = factory({{ package.class.singular }}::class)->create([
+            'created_at'  => Carbon::now(),
+            'updated_at'  => Carbon::now(),
+        ]);
+    }
+}

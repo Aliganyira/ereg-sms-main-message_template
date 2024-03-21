@@ -1,0 +1,110 @@
+.wrap {
+    width: 100px;
+    text-align: center;
+    /*font-weight: bold;*/
+    color: #13487a;
+}
+
+.wrap_active {
+    color: #ec407a !important;
+}
+
+.nav-tabs-responsive {
+    box-shadow: 0 0px 0 #ddd inset;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {
+        background: red;
+    }
+    .page-header-content .header-elements {
+        background-color: #ffffff;
+    }
+}
+.page-header-content .header-elements {
+    margin-left: -0.25rem;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {
+        background: green;
+    }
+    .page-header-content .header-elements {
+        background-color: #ffffff;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {
+        background: blue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {
+        background: orange;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example {
+        background: pink;
+    }
+}
+
+.text_increase {
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.header-alignment::-webkit-scrollbar {
+    display: none;
+}
+
+.header-alignment {
+    border: none;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+}
+
+.extra_menu {
+    border-top: solid thin #e2e2e2;
+    border-left: solid thin #e2e2e2;
+    border-right: solid thin #e2e2e2;
+}
+.n-item {
+    /*border-left: solid 0.01em #eeeeee;*/
+    /*border-right: solid 0.01em #e2e2e2;*/
+}
+/*li:nth-last-child(n) ~ li {*/
+/*    color: red !important;*/
+/*}*/
+.page-header {
+    border-bottom: solid thin #e2e2e2 !important;
+}
+
+.navbar-light .active > .navbar-nav-link, .navbar-light .navbar-nav-link.active, .navbar-light .navbar-nav-link.show, .navbar-light .show > .navbar-nav-link___ {
+    /*color: #333;*/
+    /*background-color: transparent;*/
+    /*border-top: solid thin #e2e2e2;*/
+    /*border-left: solid thin #e2e2e2;*/
+    /*border-right: solid thin #e2e2e2;*/
+    /*border-radius: 2px;*/
+}
+
+.navbar-expand-md .navbar-collapse___ {
+    /*display: -ms-flexbox!important;*/
+    /*display: flex!important;*/
+    /*-ms-flex-preferred-size: auto;*/
+    /*flex-basis: auto;*/
+    /*border-top: solid thin #e2e2e2; #03a9f4*/
+
+}

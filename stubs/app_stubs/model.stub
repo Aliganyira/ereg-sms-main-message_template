@@ -1,0 +1,27 @@
+<?php
+
+namespace {{ package.folder }}\{{ package.class.plural }}\Models;
+
+use App\BaseModel;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * Class {{ package.class.singular }}
+ * @package {{ package.class.plural }}\Models
+ *
+ * @property int $id
+ * @property Carbon created_at
+ * @property Carbon updated_at
+ */
+class {{ package.class.singular }} extends BaseModel
+{
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = '{{ package.snake.plural }}';
+
+    protected $primaryKey = 'id';
+}

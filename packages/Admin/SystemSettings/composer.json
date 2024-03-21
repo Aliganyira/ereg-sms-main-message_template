@@ -1,0 +1,13 @@
+{
+    "name": "dennis/admin-units",
+    "description": "Settings Package",
+    "type": "laravel",
+    "authors": [
+        {
+            "name": "Dennis Tamale",
+            "email": "tamaledns@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

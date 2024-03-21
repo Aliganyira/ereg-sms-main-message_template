@@ -1,0 +1,5 @@
+@@include('../../../node_modules\@fullcalendar\core\main.min.js')
+@@include('../../../node_modules\@fullcalendar\bootstrap\main.min.js')
+@@include('../../../node_modules\@fullcalendar\interaction\main.min.js')
+@@include('../../../node_modules\@fullcalendar\daygrid\main.min.js')
+@@include('../../../node_modules\@fullcalendar\timegrid\main.min.js')

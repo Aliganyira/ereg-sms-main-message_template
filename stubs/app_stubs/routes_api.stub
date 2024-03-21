@@ -1,0 +1,15 @@
+<?php
+
+use {{ package.folder }}\{{ package.class.plural }}\Http\Controllers\{{ package.class.plural }}Controller;
+
+Route::group([
+    'middleware' => ['api','auth:api','admin'],
+    //'prefix'     => 'api/{{ package.slug.plural }}'
+    'prefix'     => 'api/{{ package.folder.slug }}'
+], function() {
+
+    Route::apiResource('{{ package.slug.plural }}', {{ package.class.plural }}Controller::class);
+	//Route::get ('/',       [{{ package.class.plural }}Controller::class, 'index' ])->name('{{ package.slug.plural }}.index');
+	//Route::get ('/create', [{{ package.class.plural }}Controller::class, 'create'])->name('{{ package.slug.plural }}.create');
+	//Route::post('/',       [{{ package.class.plural }}Controller::class, 'create'])->name('{{ package.slug.plural }}.store');
+});

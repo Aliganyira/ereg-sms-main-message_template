@@ -1,0 +1,8 @@
+{
+    "name": "helpdesk/{{ package.folder }}/{{ package.slug.plural }}",
+    "description": "{{ package.class.plural }}",
+    "type": "laravel",
+    "authors": [],
+    "minimum-stability": "dev",
+    "require": {}
+}
